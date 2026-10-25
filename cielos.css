@@ -1,8 +1,11 @@
 Body {
-    background-color: rgb(149, 31, 196);
+    background-color: rgb(180, 48, 48);
+}
+h1{
+    color: white;
 }
 a, a:active{
-    color:rgb(87, 87, 90) (234, 51, 81);
+    color:rgb(172, 24, 49) (234, 51, 81);
     font-size: 2em;
 }
 a:visited {
@@ -19,9 +22,12 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0%;
+    justify-content; center;
 }
 #enlace {
     position: fixed;
     left: 10;
     bottom: 10;
+}
+
 }
