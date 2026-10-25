@@ -5,6 +5,11 @@ background-color: #a5668b;
 font-family: "Cinzel Decorative", serif;
   font-weight: 400;
   font-style: normal;
+  transition: background-color 0.5s ease;
+}
+
+body:has(a.enlace-color:hover) {
+    background-color:rgb(182, 73, 73);
 }
 
 hi {
