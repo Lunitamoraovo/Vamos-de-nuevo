@@ -9,7 +9,7 @@ font-family: "Cinzel Decorative", serif;
 }
 
 body:has(a.enlace-color:hover) {
-    background-color:rgb(182, 73, 73);
+    background-color:rgb(194, 46, 46);
 }
 
 hi {
