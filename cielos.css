@@ -1,0 +1,27 @@
+Body {
+    background-color: rgb(149, 31, 196);
+}
+a, a:active{
+    color:blue (234, 51, 81);
+    font-size: 2em;
+}
+a:visited {
+    color: azure (73, 156, 24);
+}
+
+a:hover {
+    color:brown (24, 92, 156)
+}
+
+#video {
+    width: 100vw;
+    height: 90vh;
+    position: fixed;
+    top: 0;
+    left: 0%;
+}
+#enlace {
+    position: fixed;
+    left: 10;
+    bottom: 10;
+}
