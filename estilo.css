@@ -16,7 +16,16 @@ margin: 0;
 p {
     color: #000000;
 }
+.subtitulo {
+    transition: transform 0.3s ease;
+    display: block;
+    text-align: center;
+}
 
+.subtitulo:hover {
+    transform: scale(2.9);
+    color: red;
+}
 #galeria {
     display: flex;
     justify-content: center;
@@ -24,6 +33,14 @@ p {
     gap: 45px;
     max-width: 1100px;
     margin: 60px auto 30px;
+
+     background-image: url("Food\ Chain.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+     padding: 40px;
+    border-radius: 20px;
 }
 
 .foto-grande {
@@ -63,4 +80,17 @@ p {
 .foto-grande p {
     margin-top: 10px;
     text-align: center;
+}
+
+
+.boton-texto {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.boton-texto:hover {
+    color: #ff69b4;
+    cursor: pointer;
 }

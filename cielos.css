@@ -2,7 +2,7 @@ Body {
     background-color: rgb(149, 31, 196);
 }
 a, a:active{
-    color:blue (234, 51, 81);
+    color:rgb(87, 87, 90) (234, 51, 81);
     font-size: 2em;
 }
 a:visited {
